@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 03</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+          <legend>Cadastro</legend>
+          <p>
+            <label>
+              Nome Completo:<input name="nome" type="text" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Data de nascimento: <input name="nasc" type="date" required />
+            </label>
+          </p>
+  
+          
+            <legend>Sexo</legend>
+            <p>
+              <label>
+                <input type="radio" name="sexo" value="F" required /> Feminino
+              </label>
+            </p>
+  
+            <p>
+              <label>
+                <input type="radio" name="sexo" value="M" /> Masculino
+              </label>
+            </p>
+  
+            <p>
+              <label>
+                <input type="radio" name="sexo" value="N/A" /> Não se aplica
+              </label>
+            </p>
+
+          <p>
+            <label>
+              E-mail: <input name="email" type="email" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Confirme o e-mail: <input name="confirme_email" type="email" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Telefone:<input name="telefone" type="tel" required/>
+            </label>
+          </p>
+        </fieldset>
+        <br /><br />
+  
+        <fieldset>
+          <legend>Endereço</legend>
+          <p>
+            <label>
+              Logradouro: <input name="logradouro" type="text" required />
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Número: <input name="numero" type="number" min="2" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Bairro: <input name="bairro" type="text" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Estado:
+              <select name="estado" required>
+                <option selected disabled value="">Selecione uma opção</option>
+                <option value="ac">AC - Acre</option>
+                <option value="al">AL - Alagoas</option>
+                <option value="ap">AP - Amapá</option>
+                <option value="am">AM - Amazonas</option>
+                <option value="ba">BA - Bahia</option>
+                <option value="ce">CE - Ceará</option>
+                <option value="df">DF - Distrito Federal</option>
+                <option value="es">ES - Espírito Santo</option>
+                <option value="go">GO - Goiás</option>
+                <option value="ma">MA - Maranhão</option>
+                <option value="mt">MT - Mato Grosso</option>
+                <option value="ms">MS - Mato Grosso do Sul</option>
+                <option value="mg">MG - Minas Gerais</option>
+                <option value="pa">PA - Pará</option>
+                <option value="pb">PB - Paraíba</option>
+                <option value="pr">PR - Paraná</option>
+                <option value="pe">PE - Pernambuco</option>
+                <option value="pi">PI - Piauí</option>
+                <option value="rj">RJ - Rio de Janeiro</option>
+                <option value="rn">RN - Rio Grande do Norte</option>
+                <option value="rs">RS - Rio Grande do Sul</option>
+                <option value="ro">RO - Rondônia</option>
+                <option value="rr">RR - Roraima</option>
+                <option value="sc">SC - Santa Catarina</option>
+                <option value="sp">SP - São Paulo</option>
+                <option value="se">SE - Sergipe</option>
+                <option value="to">TO - Tocantins</option>
+              </select>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Cidade: <input name="cidade" type="text" required />
+            </label>
+          </p>
+        </fieldset>
+        <br /><br />
+  
+        <fieldset>
+          <legend>Área(s) de interesse</legend>
+          <p>
+            <label>
+              <input type="checkbox" name="computacao" value="computacao" />
+              Computação
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="engenharia" value="engenharia" />
+              Engenharia
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="historia" value="historia" /> História
+            </label>
+          </p>
+        </fieldset>
+        <br /><br />
+  
+        <fieldset>
+          <legend>Login</legend>
+          <p>
+            <label>
+              Usuário: <input name="usuario" type="text" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Senha: <input type="password" name="senha" minlength="6" required/>
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              Confirme a senha: <input type="password" name="confirmar_senha" minlength="8" required/>
+            </label>
+          </p>
+        </fieldset>
+        <br /><br />
+  
+        <input name="Salvar" type="submit" value="Salvar" />
+      </form>
+      <br />
+
+      <p>
+          <a href="./Pagina-inicial.html">Link para Página Inicial</a>
+      </p>
+  
+</body>
+</html>
