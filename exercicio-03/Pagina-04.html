@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 04</title>
+</head>
+<style>
+    body {
+          background-color: rgb(128, 190, 248);
+          height: 100%;
+          width: 85%;
+          margin: 2%;
+          border: 2px solid rgb(0, 0, 0);
+          padding-left: 5%;
+          padding-right: 5%;
+          display: inline-block;
+        }
+        
+        p {
+          font-family: Arial;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        p.dashed {
+            color: rgb(6, 2, 245);
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium';
+            text-align: center;
+            border-style: dashed;
+            border-color: rgb(0, 0, 0);
+            display: block;
+            
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border-radius: 1em;
+            font: 1em Arial;
+        }
+
+        form div + div {
+            margin-top: 1em;
+        }
+
+        label {
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+        }
+
+        input, textarea {
+            font: 1em Arial;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #000;
+        }
+
+        textarea {
+            vertical-align: top;
+            height: 5em;
+        }
+        .button {
+            padding-left: 90px;
+            text-align: center;
+        }
+
+        button {
+            margin-left: .5em;
+            font: 1em Arial;
+        }
+       
+</style>
+<body>
+    <p class="dashed">Página de Contato</p>
+    <form action="/formulario-contato" method="post">
+        <p>Mande uma mensagem:</p>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome_usuario">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <div>
+            <label for="texto">Texto:</label>
+            <textarea id="texto" name="texto_usuario"></textarea>
+        </div>
+    </form>
+    <div class="button">
+        <button type="submit">Enviar</button>
+        <br/>
+        <p>Ou acesse as redes sociais:</p>
+        <a href="https://www.linkedin.com/in/wendi-s-ramos/" alt="LinkedIn"><img src="./imagens/linkedin.png" width="40" height="40" /></a>
+        <a href="https://github.com/WendiRamos" alt="GitHub"><img src="./imagens/github.png" width="40" height="40" /></a>
+    </div>
+      <br/>
+
+      <p>
+        <a href="./Pagina-01-inicial.html" alt="Página 1">Link para Página Inicial</a>
+      </p>
+      
+</body>
+</html>
