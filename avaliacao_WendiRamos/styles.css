@@ -1,0 +1,24 @@
+.texto{
+    font-style: italic;
+    font-size: 22pt;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: blue;
+    background-color: yellow;
+    
+}
+
+.p{
+    margin-top: 12px;
+    margin-right: 75px;
+    margin-bottom: 55px;
+    margin-left: 83px;
+
+    padding-top: 14px;
+    padding-right: 65px;
+    padding-bottom: 45px;
+    padding-left: 74px;
+
+}
